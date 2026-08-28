@@ -1,0 +1,12 @@
+<svg width="320" height="110" viewBox="0 0 320 110" xmlns="http://www.w3.org/2000/svg">
+  <rect width="320" height="110" fill="#ffffff"/>
+  <line x1="20" y1="85" x2="200" y2="20" stroke="#888" stroke-width="2.5" marker-end="url(#ah3)"/>
+  <text x="95" y="45" fill="#888" font-size="12" font-family="sans-serif">long vector</text>
+  <text x="215" y="58" fill="#333" font-size="18" font-family="sans-serif">→</text>
+  <line x1="250" y1="85" x2="295" y2="68" stroke="#e94560" stroke-width="3" marker-end="url(#ah3r)"/>
+  <text x="245" y="100" fill="#e94560" font-size="12" font-family="sans-serif">length 1</text>
+  <defs>
+    <marker id="ah3" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#888"/></marker>
+    <marker id="ah3r" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#e94560"/></marker>
+  </defs>
+</svg>

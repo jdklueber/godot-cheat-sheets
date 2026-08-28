@@ -1,0 +1,16 @@
+<svg width="320" height="140" viewBox="0 0 320 140" xmlns="http://www.w3.org/2000/svg">
+  <rect width="320" height="140" fill="#ffffff"/>
+  <line x1="40" y1="115" x2="270" y2="115" stroke="#bbb" stroke-width="1.5"/>
+  <text x="278" y="120" fill="#bbb" font-size="12" font-family="sans-serif">surface</text>
+  <line x1="40" y1="115" x2="165" y2="20" stroke="#0f3460" stroke-width="3" marker-end="url(#ah5)"/>
+  <text x="168" y="20" fill="#0f3460" font-size="13" font-family="sans-serif">velocity</text>
+  <line x1="40" y1="115" x2="40" y2="35" stroke="#e94560" stroke-width="3" marker-end="url(#ah5r)"/>
+  <text x="46" y="35" fill="#e94560" font-size="12" font-family="sans-serif">normal part</text>
+  <line x1="40" y1="115" x2="150" y2="115" stroke="#16a34a" stroke-width="3" marker-end="url(#ah5g)"/>
+  <text x="75" y="133" fill="#16a34a" font-size="12" font-family="sans-serif">tangent part</text>
+  <defs>
+    <marker id="ah5" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#0f3460"/></marker>
+    <marker id="ah5r" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#e94560"/></marker>
+    <marker id="ah5g" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#16a34a"/></marker>
+  </defs>
+</svg>

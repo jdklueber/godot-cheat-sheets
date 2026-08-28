@@ -1,0 +1,7 @@
+<svg width="320" height="120" viewBox="0 0 320 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="320" height="120" fill="#ffffff"/>
+  <line x1="30" y1="90" x2="220" y2="25" stroke="#0f3460" stroke-width="3" marker-end="url(#ah1)"/>
+  <text x="120" y="45" fill="#0f3460" font-size="16" font-weight="bold" font-family="sans-serif">v</text>
+  <text x="30" y="112" fill="#555" font-size="12" font-family="sans-serif">length = how far, angle = which way</text>
+  <defs><marker id="ah1" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#0f3460"/></marker></defs>
+</svg>

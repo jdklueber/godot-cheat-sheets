@@ -1,0 +1,16 @@
+<svg width="380" height="220" viewBox="0 0 380 220" xmlns="http://www.w3.org/2000/svg">
+  <rect width="380" height="220" fill="#ffffff"/>
+  <rect x="20" y="20" width="340" height="180" fill="none" stroke="#94a3b8" stroke-width="2" stroke-dasharray="4,4"/>
+  <text x="26" y="16" fill="#94a3b8" font-size="13" font-family="sans-serif">parent Control</text>
+
+  <circle cx="360" cy="20" r="5" fill="#0f3460"/>
+  <text x="330" y="14" fill="#0f3460" font-size="13" font-family="sans-serif">anchor (1, 0)</text>
+
+  <line x1="360" y1="20" x2="270" y2="60" stroke="#e94560" stroke-width="2" marker-end="url(#ah3)"/>
+  <text x="255" y="45" fill="#e94560" font-size="13" font-family="sans-serif">offset_left / offset_top</text>
+
+  <rect x="150" y="60" width="120" height="50" fill="#16a34a22" stroke="#16a34a" stroke-width="2"/>
+  <text x="165" y="90" fill="#16a34a" font-size="14" font-family="sans-serif">this Control</text>
+
+  <defs><marker id="ah3" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#e94560"/></marker></defs>
+</svg>
