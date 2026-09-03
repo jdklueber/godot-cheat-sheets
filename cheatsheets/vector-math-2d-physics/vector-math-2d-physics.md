@@ -93,4 +93,8 @@ velocity = normal * normal_speed + tangent        # recombine
 
 ---
 
+See also: [Sprite Facing & Rotation Convention](../sprite-facing-and-rotation/sprite-facing-and-rotation.md) for how `.angle()` and `rotation` line up with sprite art.
+
+---
+
 *[← back to index](../../README.md)*

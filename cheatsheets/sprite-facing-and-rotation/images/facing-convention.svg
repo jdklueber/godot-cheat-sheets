@@ -1,0 +1,15 @@
+<svg width="480" height="220" viewBox="0 0 480 220" xmlns="http://www.w3.org/2000/svg">
+  <rect width="480" height="220" fill="#ffffff"/>
+
+  <!-- Row 1: art drawn facing right -->
+  <line x1="40" y1="55" x2="180" y2="55" stroke="#cccccc" stroke-width="2"/>
+  <polygon points="60,40 100,55 60,70" fill="#0f3460"/>
+  <text x="200" y="50" fill="#0f3460" font-size="14" font-family="sans-serif" font-weight="bold">rotation = 0 → art already points right</text>
+  <text x="200" y="70" fill="#16a34a" font-size="13" font-family="sans-serif">rotation = direction.angle()  (no offset)</text>
+
+  <!-- Row 2: art drawn facing up -->
+  <line x1="40" y1="155" x2="180" y2="155" stroke="#cccccc" stroke-width="2"/>
+  <polygon points="60,175 75,135 90,175" fill="#e94560"/>
+  <text x="200" y="150" fill="#e94560" font-size="14" font-family="sans-serif" font-weight="bold">art drawn facing up instead</text>
+  <text x="200" y="170" fill="#e94560" font-size="13" font-family="sans-serif">rotation = direction.angle() + PI/2  (extra offset everywhere)</text>
+</svg>

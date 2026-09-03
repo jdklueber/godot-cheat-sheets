@@ -8,6 +8,7 @@ A growing collection of reference sheets — concepts distilled to the minimum n
 
 ## Godot / 2D Nodes
 
+- [Sprite Facing & Rotation Convention](cheatsheets/sprite-facing-and-rotation/sprite-facing-and-rotation.md) — why art should face right at rotation 0, `flip_h` vs. rotating, `look_at()`, offsetting art that faces the wrong way.
 - [RayCast2D](cheatsheets/raycast2d/raycast2d.md) — local vs. global space gotchas, `force_raycast_update()`, reading hits, filtering with exceptions/masks.
 - [Line2D](cheatsheets/line2d/line2d.md) — width/color/gradient, the two-layer core+glow trick for a laser beam, wiring points to a RayCast2D each frame.
 
