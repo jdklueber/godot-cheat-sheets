@@ -6,6 +6,11 @@ A growing collection of reference sheets — concepts distilled to the minimum n
 
 - [Vector Math for Hand-Rolled 2D Physics](cheatsheets/vector-math-2d-physics/vector-math-2d-physics.md) — subtraction as "to minus from," normalize, dot product, normal/tangent decomposition, `move_toward` vs `lerp`.
 
+## Godot / 2D Nodes
+
+- [RayCast2D](cheatsheets/raycast2d/raycast2d.md) — local vs. global space gotchas, `force_raycast_update()`, reading hits, filtering with exceptions/masks.
+- [Line2D](cheatsheets/line2d/line2d.md) — width/color/gradient, the two-layer core+glow trick for a laser beam, wiring points to a RayCast2D each frame.
+
 ## Godot / UI
 
 - [Control Foundations](cheatsheets/control-foundations/control-foundations.md) — why your UI won't stay put: anchors, offsets, size flags, and how containers take over positioning.
